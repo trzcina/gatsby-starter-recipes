@@ -36,7 +36,7 @@ Screenshot
 
     ```
     GATSBY_FLOTIQ_BASE_URL=https://api.flotiq.com
-    FLOTIQ_API_KEY=YOUR FLOTIQ API KEY
+    GATSBY_FLOTIQ_API_KEY=YOUR FLOTIQ API KEY
     ```
 
 1.  **Start developing**
@@ -52,7 +52,7 @@ Screenshot
     If you wish to import example recipes to your account, before running `gatsby develop` run:
     
     ```sh
-    node ./example/importExample.js
+    node ./.flotiq/importExample.js
     ```
     
     It will add 4 images and 2 recipes to your Flotiq account.
